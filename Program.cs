@@ -12,8 +12,8 @@ namespace challenges
 
             CheckingAccount ca1 = new CheckingAccount("Jane Fonda", 123, 12345.32);
             SavingsAccount sa1 = new SavingsAccount("Jane Fonda", 123, 242.00);
+            BankAccounts b1 = new BankAccounts("testAccount", 666);
 
-            
             do
             {
                 System.Console.WriteLine(sa1.ShowOptions());  
@@ -36,8 +36,16 @@ namespace challenges
                         System.Console.WriteLine($"You've deposited ${depositAmount} to your Checking account");
                         break;
                     case '4':
+                    if (sa1 is BankAccounts)
+                    {
+                        
+                    }
+                        break;
                     case '5':
+                        // b1.setRegion("Aarhus");
+                        // break;
                     case '6':
+
                     case 'x':
                         System.Console.WriteLine("exiting the program");
                         break;
