@@ -13,16 +13,11 @@ namespace challenges
             CheckingAccount ca1 = new CheckingAccount("Jane Fonda", 123, 12345.32);
             SavingsAccount sa1 = new SavingsAccount("Jane Fonda", 123, 242.00);
 
-
-         
-
-
-
-
+            
             do
             {
                 System.Console.WriteLine(sa1.ShowOptions());  
-                choice = Convert.ToChar(Console.ReadLine());       
+                choice = Convert.ToChar(Console.ReadLine().ToLower());       
 
 
                 switch (choice)
