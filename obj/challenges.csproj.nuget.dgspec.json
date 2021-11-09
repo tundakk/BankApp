@@ -1,27 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Winther\\source\\repos\\tundakk\\BankApp\\challenges.csproj": {}
+    "C:\\Users\\niko\\Documents\\code\\linkedInLearning\\c\\Ex_Files_Learning_C_Sharp\\challenges\\challenges.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Winther\\source\\repos\\tundakk\\BankApp\\challenges.csproj": {
+    "C:\\Users\\niko\\Documents\\code\\linkedInLearning\\c\\Ex_Files_Learning_C_Sharp\\challenges\\challenges.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Winther\\source\\repos\\tundakk\\BankApp\\challenges.csproj",
+        "projectUniqueName": "C:\\Users\\niko\\Documents\\code\\linkedInLearning\\c\\Ex_Files_Learning_C_Sharp\\challenges\\challenges.csproj",
         "projectName": "challenges",
-        "projectPath": "C:\\Users\\Winther\\source\\repos\\tundakk\\BankApp\\challenges.csproj",
-        "packagesPath": "C:\\Users\\Winther\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Winther\\source\\repos\\tundakk\\BankApp\\obj\\",
+        "projectPath": "C:\\Users\\niko\\Documents\\code\\linkedInLearning\\c\\Ex_Files_Learning_C_Sharp\\challenges\\challenges.csproj",
+        "packagesPath": "C:\\Users\\niko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niko\\Documents\\code\\linkedInLearning\\c\\Ex_Files_Learning_C_Sharp\\challenges\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Winther\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
